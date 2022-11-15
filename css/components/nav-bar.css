@@ -1,11 +1,22 @@
 nav {
+    /* 하단바를 화면에 계속 붙어있게 하자 position:fixed */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* 모여있는 아이콘들을 재배치 */
     background-color: #f9f9fa;
     /* 아이콘 간에 빈 공간 만들기 */
-    padding: 20px 40px;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
 
 .nav__list {
     display: flex;
     /* icon들이 서로서로 옆에 위치해야한다 */
     justify-content: space-between;
+}
+
+.nav__link {
+    color: #2e363e;
 }
