@@ -20,5 +20,42 @@ nav {
 }
 
 .nav__link {
+    position: relative;
     color: #2e363e;
+}
+
+.nav__notification {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    /* 이렇게 하면 높이 너비가 적용이 안되는데 span이기 때문이다.
+    display: block; 설정을 해줘야 한다 */
+    border-radius: 15px;
+    /* 사각형을 원으로 만들고싶다면 width의 반을 값으로 쓰면 된다 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 숫자1을 중간에 오도록 해보자 
+    근데 적용이 안될것이다. 왜냐하면 display:flex가 
+    cascading원칙에 따라 display: block으로 바뀌었기 때문
+    그래서 아래에 있는 display: block 삭제 */
+    color: white;
+    font-weight: 600;
+    /* 글자 수정 */
+    position: absolute;
+    /* 숫자가 말풍선 위에 오기, but 살짝 오른쪽으로 가야한다 */
+    left: 15px;
+    /* 처음에는 오른쪽 끝에 가있을거다. 왜냐하면 position:absolute는
+    부모 컨테이너에서 position: relative;를 설정해줘야 그 안에서 움직이기 때문이다 */
+    bottom: 15px;
+}
+
+.nav__dot {
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    position: absolute;
+    left: 35px;
+    bottom: 30px;
 }
