@@ -4,6 +4,7 @@
     background-color: #fafafa;
     padding: 15px 0px;
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 #friends-display-link i {
@@ -11,3 +12,7 @@
 }
 
 /* icon 색 바꾸기, icon은 font와 같다.*/
+
+.friends-screen {
+    padding: 0px var(--horizontal-space);
+}
