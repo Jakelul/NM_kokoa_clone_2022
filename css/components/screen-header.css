@@ -15,4 +15,5 @@
 .screen-header__icons span {
     margin-left: 25px;
     /* 오른쪽 상단 돋보기 아이콘 관련 */
+    position: relative;
 }
