@@ -6,8 +6,6 @@
     justify-content: space-between;
 }
 
-/* channel과 숫자 2^를 양옆으로 떨어뜨려놓음 */
-
 .user-component,
 .user-component__column:first-child {
     display: flex;
@@ -32,7 +30,6 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
-<<<<<<< Updated upstream
 .user-component__avatar--xl {
     width: 80px;
     height: 80px;
@@ -41,16 +38,9 @@
 .user-component__avatar--sm {
     width: 60px;
     height: 60px;
-    border-radius: 25px
+    border-radius: 25px;
 }
 
 .user-component__title--not-bold {
     font-weight: 400;
 }
-
-.user-component__column:last-child {
-    color: rgba(0, 0, 0, 0.5);
-}
-=======
-.user-component__avatar--xl {}
->>>>>>> Stashed changes
