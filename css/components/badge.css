@@ -1,0 +1,19 @@
+.badge {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    /* 이렇게 하면 높이 너비가 적용이 안되는데 span이기 때문이다.
+    display: block; 설정을 해줘야 한다 */
+    border-radius: 15px;
+    /* 사각형을 원으로 만들고싶다면 width의 반을 값으로 쓰면 된다 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 숫자1을 중간에 오도록 해보자 
+    근데 적용이 안될것이다. 왜냐하면 display:flex가 
+    cascading원칙에 따라 display: block으로 바뀌었기 때문
+    그래서 아래에 있는 display: block 삭제 */
+    color: white;
+    font-weight: 600;
+    /* 글자 수정 */
+}
