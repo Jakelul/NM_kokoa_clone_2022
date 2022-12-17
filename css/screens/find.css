@@ -12,10 +12,28 @@
 .find-icons__icon i {
     /* 클래스 안의 icon만 지칭하는 class */
     font-size: 35px;
-    ;
 }
 
 .find-icons__icon span {
     margin-top: 18px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.recommended-friends {
+    margin: 25px 0px;
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+    padding: 25px 0px;
+}
+
+.recommended-friends__title {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.recommended-friends span {
+    margin: 100px 0;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
 }
